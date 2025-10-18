@@ -22,5 +22,9 @@ This project simulates a basic online store with product listings, categories, a
    cd E-commerce-Website
 
 4. Open index.html in your browser.
+
+## Live Demo
+
+[View Live Website](https://KeerthiPNaik.github.io/E-commerce-Website/)
    
 
