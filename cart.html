@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel="stylesheet" 
+    href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css" 
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span>(+01) - 2345 - 6789</span>
+            <span>Our location</span>
+          </div>
+          <p class="header__alert-news">
+            Super Value Deals - Save more with coupons
+          </p>
+          <a href="loginRegister.html" class="header__top-action">
+            Login In / Sign Up
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/img/logo.svg" alt="" class="nav__logoImg">
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link ">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link active-link">Shop</a>
+            </li>
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">My Account</a>
+            </li>
+            <li class="nav__item">
+              <a href="loginRegister.html" class="nav__link">Login</a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input type="text" placeholder="Search for items..." class="form__input">
+
+            <button class="search__btn">
+              <img src="assets/img/search.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img src="assets/img/icon-heart.svg" alt="">
+            <span class="count">3</span>
+          </a>
+          <a href="cart.html" class="header__action-btn">
+            <img src="assets/img/icon-cart.svg" alt="">
+            <span class="count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+
+      <!--=============== CART ===============-->
+      <section class="cart section--lg container">
+        <div class="table__container">
+          <table class="table">
+            <tr>
+              <th>Imagess</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+              <th>Remove</th>
+            </tr>
+            <tr>
+              <td><img src="assets/img/product-1-2.jpg" alt="" class="table__img"></td>
+              <td>
+                <h3 class="table__title">
+                  Crew Mercantile Women Short-Sleeve
+                </h3>
+                <p class="table__description">
+                  Mkqnmdpp Kowomp Kapwlncjbr Mnueiow mnfjiaohiemj in it.
+                </p>
+              </td>
+              <td><span class="table__price">$110</span></td>
+              <td><input type="number" value="3" class="quantity"></td>
+              <td><span class="table__subtotal">$220</span></td>
+              <td><i class="fi fi-rs-trash table__trash"></i></td>
+            </tr>
+            <tr>
+              <td><img src="assets/img/product-7-1.jpg" alt="" class="table__img"></td>
+              <td>
+                <h3 class="table__title">
+                  Brand New Cloth
+                </h3>
+                <p class="table__description">
+                  Mkqnmdpp Kowomp Kapwlncjbr Mnueiow mnfjiaohiemj in it.
+                </p>
+              </td>
+              <td><span class="table__price">$110</span></td>
+              <td><input type="number" value="3" class="quantity"></td>
+              <td><span class="table__subtotal">$220</span></td>
+              <td><i class="fi fi-rs-trash table__trash"></i></td>
+            </tr>
+            <tr>
+              <td><img src="assets/img/product-2-1.jpg" alt="" class="table__img"></td>
+              <td>
+                <h3 class="table__title">
+                  Amazon New Fashion
+                </h3>
+                <p class="table__description">
+                  Mkqnmdpp Kowomp Kapwlncjbr Mnueiow mnfjiaohiemj in it.
+                </p>
+              </td>
+              <td><span class="table__price">$110</span></td>
+              <td><input type="number" value="3" class="quantity"></td>
+              <td><span class="table__subtotal">$220</span></td>
+              <td><i class="fi fi-rs-trash table__trash"></i></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="cart__actions">
+          <a href="#" class="btn flex btn--md">
+            <i class="fi-rs-shuffle"></i>Update Cart
+          </a>
+          <a href="#" class="btn flex btn--md">
+            <i class="fi-rs-shopping-bag"></i>Continue Shopping
+          </a>
+        </div>
+
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon">
+            Sign up to Newsletter
+          </h3>
+
+          <p class="newsletter__description">
+            ...and receive $25 coupon for first shopping.
+          </p>
+          <form action="" class="newsletter__form">
+            <input type="text" class="newsletter__input" placeholder="Enter tour email">
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+          </form>
+        </div>
+
+      </section>
+
+     <!--=============== SWIPER JS ===============-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!--=============== MAIN JS ===============-->
+     <script src="assets/js/main.js"></script>
+  </body>
+</html>
